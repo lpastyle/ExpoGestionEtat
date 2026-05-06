@@ -1,8 +1,8 @@
-import Compteur from './Compteur';
+import Formulaire from './Formulaire';
 
-// EXEMPLE 3.
-// Compteur avec boutons +/-/reset
+// EXEMPLE 4.
+// Formulaire de saisie
 export default function App() {
-  return <Compteur />;
+  return <Formulaire />;
 }
 
