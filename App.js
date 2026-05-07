@@ -1,7 +1,12 @@
-import Panier from './Panier';
+import { ThemeProvider } from './contexts/ThemeContext';
+import EcranPrincipal from './EcranPrincipal';
 
-// EXEMPLE 6.
-// Panier d'achat
+// EXEMPLE 8.
+// Basculement thème clair/sombre avec Context Provider
 export default function App() {
-  return <Panier />;
+  return (
+    <ThemeProvider>
+      <EcranPrincipal />
+    </ThemeProvider>
+  );
 }
