@@ -1,7 +1,7 @@
-import Profil from './Profil';
+import Panier from './Panier';
 
-// EXEMPLE 5.
-// Mise à jour d'un objet "profil utilisateur" en temps-réel
+// EXEMPLE 6.
+// Panier d'achat
 export default function App() {
-  return <Profil />;
+  return <Panier />;
 }
